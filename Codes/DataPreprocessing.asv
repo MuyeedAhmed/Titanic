@@ -1,0 +1,8 @@
+genderSubmission = readtable('Kaggle Titanic\Data\gender_submission.csv');
+ = readtable('Kaggle Titanic\Data\gender_submission.csv');
+  = readtable('Kaggle Titanic\Data\gender_submission.csv');
+
+
+
+userVSratings = outerjoin(splittedTable, ratings);
+
